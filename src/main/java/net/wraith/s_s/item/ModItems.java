@@ -20,10 +20,10 @@ public class ModItems{
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> MALACHITE_PICKAXE = ITEMS.register("malachite_pickaxe",
-            () -> new PickaxeItem(ModToolTiers.MALACHITE, 2, 3f, new Item.Properties().stacksTo(1)));
+            () -> new PickaxeItem(ModToolTiers.MALACHITE, 2, -2.8f, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> MALACHITE_AXE = ITEMS.register("malachite_axe",
+            () -> new AxeItem(ModToolTiers.MALACHITE, 5, -3f, new Item.Properties().stacksTo(1)));
 
-    //public static final RegistryObject<Item> MALACHITE_AXE = ITEMS.register("malachite_axe",
-      //      () -> new AxeItem(ModToolTiers.MALACHITE, 2, 3f, new Item.Properties().stacksTo(1)));
 
 
     public static void register(IEventBus eventBus){

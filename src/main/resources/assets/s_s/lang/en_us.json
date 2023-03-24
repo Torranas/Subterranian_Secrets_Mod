@@ -3,6 +3,7 @@
   "item.s_s.malachite": "Malachite",
   "item.s_s.raw_malachite": "Raw Malachite",
   "item.s_s.malachite_pickaxe": "Malachite Pickaxe",
+  "item.s_s.malachite_axe": "Malachite Axe",
   "block.s_s.malachite_block": "Block Of Malachite",
   "block.s_s.malachite_ore": "Malachite Ore",
   "block.s_s.deepslate_malachite_ore": "Deepslate Malachite Ore",
@@ -15,4 +16,5 @@
   "block.s_s.stripped_ebony_wood": "Stripped Ebony Wood",
   "block.s_s.ebony_leaves": "Ebony Leaves",
   "block.s_s.ebony_sapling": "Ebony Sapling"
+
 }

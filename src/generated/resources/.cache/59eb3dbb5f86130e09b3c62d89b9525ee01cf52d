@@ -1,6 +1,6 @@
-// 1.19.3	2023-03-24T09:30:21.8831068	Loot Tables
+// 1.19.3	2023-03-24T21:42:13.968737	Loot Tables
 024874a9ee9d4a0498bc3169ae0fd70f7226aa29 data/s_s/loot_tables/blocks/deepslate_malachite_ore.json
-849ba7920489d42f1c25a183a0de14eaaf4e7eee data/s_s/loot_tables/blocks/ebony_leaves.json
+c1a9acac1b57e40ca97d535074797c71d23b20a9 data/s_s/loot_tables/blocks/ebony_leaves.json
 d97efbd35b0095985f107077f915d01fe13e389b data/s_s/loot_tables/blocks/ebony_log.json
 910b4c19b394326c1e87031e721d1be89b17a0a7 data/s_s/loot_tables/blocks/ebony_planks.json
 c13a5e8d6a37e4355c65c46657237c4af0129f19 data/s_s/loot_tables/blocks/ebony_sapling.json

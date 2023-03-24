@@ -21,9 +21,10 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(ModItems.MALACHITE);
         simpleItem(ModItems.RAW_MALACHITE);
-        saplingItem(ModBlocks.EBONY_SAPLING);
         handheldItem(ModItems.MALACHITE_PICKAXE);
-        //simpleItem()
+        handheldItem(ModItems.MALACHITE_AXE);
+        saplingItem(ModBlocks.EBONY_SAPLING);
+
     }
 
     private ItemModelBuilder saplingItem(RegistryObject<Block> item) {

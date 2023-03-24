@@ -47,6 +47,7 @@ public class SubterraneanSecrets {
             event.accept(ModItems.MALACHITE);
             event.accept(ModItems.RAW_MALACHITE);
             event.accept(ModItems.MALACHITE_PICKAXE);
+            event.accept(ModItems.MALACHITE_AXE);
             event.accept(ModBlocks.MALACHITE_BLOCK);
             event.accept(ModBlocks.MALACHITE_ORE);
             event.accept(ModBlocks.DEEPSLATE_MALACHITE_ORE);
@@ -87,6 +88,7 @@ public class SubterraneanSecrets {
 
         if (event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.MALACHITE_PICKAXE);
+            event.accept(ModItems.MALACHITE_AXE);
         }
     }
 
