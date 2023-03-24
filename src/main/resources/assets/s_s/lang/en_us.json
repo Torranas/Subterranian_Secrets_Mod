@@ -1,5 +1,11 @@
 {
   "creativemodetab.subterranean_secrets_tab": "Subterranean Secrets",
   "item.s_s.malachite": "Malachite",
-  "item.s_s.raw_malachite": "Raw Malachite"
+  "item.s_s.raw_malachite": "Raw Malachite",
+  "block.s_s.malachite_block": "Block Of Malachite",
+  "block.s_s.malachite_ore": "Malachite Ore",
+  "block.s_s.deepslate_malachite_ore": "Deepslate Malachite Ore",
+  "block.s_s.netherrack_malachite_ore": "Netherrack Malachite Ore",
+  "block.s_s.endstone_malachite_ore": "Endstone Malachite Ore"
+
 }
