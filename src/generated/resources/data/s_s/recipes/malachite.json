@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "s_s:malachite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "s_s:malachite"
+  }
+}

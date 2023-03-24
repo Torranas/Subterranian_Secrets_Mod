@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.wraith.block.ModBlocks;
+import net.wraith.s_s.block.ModBlocks;
 import net.wraith.s_s.item.ModCreativeModeTabs;
 import net.wraith.s_s.item.ModItems;
 import org.slf4j.Logger;
@@ -51,9 +51,23 @@ public class SubterraneanSecrets {
             event.accept(ModBlocks.DEEPSLATE_MALACHITE_ORE);
             event.accept(ModBlocks.NETHERRACK_MALACHITE_ORE);
             event.accept(ModBlocks.ENDSTONE_MALACHITE_ORE);
+            event.accept(ModBlocks.EBONY_LEAVES);
+            event.accept(ModBlocks.EBONY_LOG);
+            event.accept(ModBlocks.EBONY_WOOD);
+            event.accept(ModBlocks.EBONY_PLANKS);
+            event.accept(ModBlocks.STRIPPED_EBONY_LOG);
+            event.accept(ModBlocks.STRIPPED_EBONY_WOOD);
+            event.accept(ModBlocks.EBONY_SAPLING);
         }
         if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.MALACHITE_BLOCK);
+            event.accept(ModBlocks.EBONY_LEAVES);
+            event.accept(ModBlocks.EBONY_LOG);
+            event.accept(ModBlocks.EBONY_WOOD);
+            event.accept(ModBlocks.EBONY_PLANKS);
+            event.accept(ModBlocks.STRIPPED_EBONY_LOG);
+            event.accept(ModBlocks.STRIPPED_EBONY_WOOD);
+            event.accept(ModBlocks.EBONY_SAPLING);
 
         }
         if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS){
@@ -61,6 +75,13 @@ public class SubterraneanSecrets {
             event.accept(ModBlocks.DEEPSLATE_MALACHITE_ORE);
             event.accept(ModBlocks.NETHERRACK_MALACHITE_ORE);
             event.accept(ModBlocks.ENDSTONE_MALACHITE_ORE);
+            event.accept(ModBlocks.EBONY_LEAVES);
+            event.accept(ModBlocks.EBONY_LOG);
+            event.accept(ModBlocks.EBONY_WOOD);
+            event.accept(ModBlocks.EBONY_PLANKS);
+            event.accept(ModBlocks.STRIPPED_EBONY_LOG);
+            event.accept(ModBlocks.STRIPPED_EBONY_WOOD);
+            event.accept(ModBlocks.EBONY_SAPLING);
         }
     }
 

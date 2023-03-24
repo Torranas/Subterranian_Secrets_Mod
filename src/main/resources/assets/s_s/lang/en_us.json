@@ -6,6 +6,12 @@
   "block.s_s.malachite_ore": "Malachite Ore",
   "block.s_s.deepslate_malachite_ore": "Deepslate Malachite Ore",
   "block.s_s.netherrack_malachite_ore": "Netherrack Malachite Ore",
-  "block.s_s.endstone_malachite_ore": "Endstone Malachite Ore"
-
+  "block.s_s.endstone_malachite_ore": "Endstone Malachite Ore",
+  "block.s_s.ebony_log": "Ebony Log",
+  "block.s_s.ebony_planks": "Ebony Planks",
+  "block.s_s.ebony_wood": "Ebony Wood",
+  "block.s_s.stripped_ebony_log": "Stripped Ebony Log",
+  "block.s_s.stripped_ebony_wood": "Stripped Ebony Wood",
+  "block.s_s.ebony_leaves": "Ebony Leaves",
+  "block.s_s.ebony_sapling": "Ebony Sapling"
 }
