@@ -1,8 +1,6 @@
 package net.wraith.s_s.item;
 
-import net.minecraft.world.item.AxeItem;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -23,6 +21,12 @@ public class ModItems{
             () -> new PickaxeItem(ModToolTiers.MALACHITE, 2, -2.8f, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> MALACHITE_AXE = ITEMS.register("malachite_axe",
             () -> new AxeItem(ModToolTiers.MALACHITE, 5, -3f, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> MALACHITE_SHOVEL = ITEMS.register("malachite_shovel",
+            () -> new ShovelItem(ModToolTiers.MALACHITE, 1.5f, -3f, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> MALACHITE_HOE = ITEMS.register("malachite_hoe",
+            () -> new HoeItem(ModToolTiers.MALACHITE, -4, 0.33333333f, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> MALACHITE_SWORD = ITEMS.register("malachite_sword",
+            () -> new SwordItem(ModToolTiers.MALACHITE, 3, -2.4f, new Item.Properties().stacksTo(1)));
 
 
 

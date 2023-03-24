@@ -23,6 +23,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.RAW_MALACHITE);
         handheldItem(ModItems.MALACHITE_PICKAXE);
         handheldItem(ModItems.MALACHITE_AXE);
+        handheldItem(ModItems.MALACHITE_SHOVEL);
+        handheldItem(ModItems.MALACHITE_HOE);
+        handheldItem(ModItems.MALACHITE_SWORD);
         saplingItem(ModBlocks.EBONY_SAPLING);
 
     }

@@ -48,6 +48,9 @@ public class SubterraneanSecrets {
             event.accept(ModItems.RAW_MALACHITE);
             event.accept(ModItems.MALACHITE_PICKAXE);
             event.accept(ModItems.MALACHITE_AXE);
+            event.accept(ModItems.MALACHITE_SHOVEL);
+            event.accept(ModItems.MALACHITE_HOE);
+            event.accept(ModItems.MALACHITE_SWORD);
             event.accept(ModBlocks.MALACHITE_BLOCK);
             event.accept(ModBlocks.MALACHITE_ORE);
             event.accept(ModBlocks.DEEPSLATE_MALACHITE_ORE);
