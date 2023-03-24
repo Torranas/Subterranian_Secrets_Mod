@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "group": "malachite",
+  "ingredient": {
+    "item": "s_s:malachite_ore"
+  },
+  "result": "s_s:malachite"
+}
