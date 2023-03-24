@@ -1,3 +1,9 @@
-// 1.19.3	2023-03-24T09:50:33.920365	Registries
+// 1.19.3	2023-03-24T12:49:45.8496012	Registries
 9c96c34ec7b9a21d0a0a589083285ab14076a7b6 data/s_s/worldgen/configured_feature/ebony.json
+e07a1ecd9868f58ba168de5f5d98d9baa26138a5 data/s_s/worldgen/configured_feature/end_malachite_ore.json
+129e20427631986b9a4d06ec43b0bb45a1908118 data/s_s/worldgen/configured_feature/malachite_ore.json
+34bc5bd8d8ecb3efa420bee41bb74b760d7a5073 data/s_s/worldgen/configured_feature/nether_malachite_ore.json
 c9ab68c43c85d3ce308e67d71aeb8392eaabd56e data/s_s/worldgen/placed_feature/ebony_placed.json
+116d4615306b4d44122c3e69f8f076aca5b4bda0 data/s_s/worldgen/placed_feature/end_malachite_placed.json
+c2d7aa66dc686853146a0f72eafa903ed9cbbb37 data/s_s/worldgen/placed_feature/malachite_placed.json
+a4608b08945120b654f5a14dc23dd7b8821f4cb6 data/s_s/worldgen/placed_feature/nether_malachite_placed.json
