@@ -39,13 +39,14 @@ public class SubterraneanSecrets {
     }
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
-        if(event.getTab() == CreativeModeTabs.INGREDIENTS) {
+        if (event.getTab() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.MALACHITE);
             event.accept(ModItems.RAW_MALACHITE);
         }
-        if(event.getTab() == ModCreativeModeTabs.SUBTERRANEAN_SECRETS_TAB){
+        if (event.getTab() == ModCreativeModeTabs.SUBTERRANEAN_SECRETS_TAB) {
             event.accept(ModItems.MALACHITE);
             event.accept(ModItems.RAW_MALACHITE);
+            event.accept(ModItems.MALACHITE_PICKAXE);
             event.accept(ModBlocks.MALACHITE_BLOCK);
             event.accept(ModBlocks.MALACHITE_ORE);
             event.accept(ModBlocks.DEEPSLATE_MALACHITE_ORE);
@@ -59,7 +60,7 @@ public class SubterraneanSecrets {
             event.accept(ModBlocks.STRIPPED_EBONY_WOOD);
             event.accept(ModBlocks.EBONY_SAPLING);
         }
-        if(event.getTab() == CreativeModeTabs.BUILDING_BLOCKS){
+        if (event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.MALACHITE_BLOCK);
             event.accept(ModBlocks.EBONY_LEAVES);
             event.accept(ModBlocks.EBONY_LOG);
@@ -70,7 +71,7 @@ public class SubterraneanSecrets {
             event.accept(ModBlocks.EBONY_SAPLING);
 
         }
-        if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS){
+        if (event.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.MALACHITE_ORE);
             event.accept(ModBlocks.DEEPSLATE_MALACHITE_ORE);
             event.accept(ModBlocks.NETHERRACK_MALACHITE_ORE);
@@ -82,10 +83,14 @@ public class SubterraneanSecrets {
             event.accept(ModBlocks.STRIPPED_EBONY_LOG);
             event.accept(ModBlocks.STRIPPED_EBONY_WOOD);
             event.accept(ModBlocks.EBONY_SAPLING);
+        }
+
+        if (event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.MALACHITE_PICKAXE);
         }
     }
 
-    
+
     // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {

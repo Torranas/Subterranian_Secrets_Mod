@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "s_s:malachite_block",
     "s_s:malachite_ore",
     "s_s:deepslate_malachite_ore",
     "s_s:netherrack_malachite_ore",
