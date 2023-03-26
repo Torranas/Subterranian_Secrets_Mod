@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "jasper",
+  "ingredient": {
+    "item": "s_s:deepslate_jasper_ore"
+  },
+  "result": "s_s:jasper"
+}

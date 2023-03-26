@@ -24,6 +24,9 @@ public class ModPlacedFeatures {
     public static final ResourceKey<PlacedFeature> MALACHITE_PLACED_KEY = createKey("malachite_placed");
     public static final ResourceKey<PlacedFeature> END_MALACHITE_PLACED_KEY = createKey("end_malachite_placed");
     public static final ResourceKey<PlacedFeature> NETHER_MALACHITE_PLACED_KEY = createKey("nether_malachite_placed");
+    public static final ResourceKey<PlacedFeature> JASPER_PLACED_KEY = createKey("jasper_placed");
+    public static final ResourceKey<PlacedFeature> END_JASPER_PLACED_KEY = createKey("end_jasper_placed");
+    public static final ResourceKey<PlacedFeature> NETHER_JASPER_PLACED_KEY = createKey("nether_jasper_placed");
 
 
     public static void bootstrap(BootstapContext<PlacedFeature> context) {
@@ -39,6 +42,16 @@ public class ModPlacedFeatures {
                 ModOrePlacement.commonOrePlacement(16, // veins per chunk
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(80))));
         register(context, NETHER_MALACHITE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_MALACHITE_ORE_KEY),
+                ModOrePlacement.commonOrePlacement(16, // veins per chunk
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(80))));
+
+        register(context, JASPER_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_JASPER_ORE_KEY),
+                ModOrePlacement.commonOrePlacement(16,
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(80))));
+        register(context, END_JASPER_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.END_JASPER_ORE_KEY),
+                ModOrePlacement.commonOrePlacement(16, // veins per chunk
+                        HeightRangePlacement.uniform(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(80))));
+        register(context, NETHER_JASPER_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.NETHER_JASPER_ORE_KEY),
                 ModOrePlacement.commonOrePlacement(16, // veins per chunk
                         HeightRangePlacement.uniform(VerticalAnchor.absolute(-80), VerticalAnchor.absolute(80))));
     }

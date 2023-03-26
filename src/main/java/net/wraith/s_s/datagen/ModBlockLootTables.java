@@ -16,7 +16,6 @@ public class ModBlockLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
-        dropSelf(ModBlocks.MALACHITE_BLOCK.get());
         add(ModBlocks.MALACHITE_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.MALACHITE_ORE.get(), ModItems.RAW_MALACHITE.get()));
         add(ModBlocks.DEEPSLATE_MALACHITE_ORE.get(),
@@ -25,7 +24,17 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 (block) -> createOreDrop(ModBlocks.NETHERRACK_MALACHITE_ORE.get(), ModItems.RAW_MALACHITE.get()));
         add(ModBlocks.ENDSTONE_MALACHITE_ORE.get(),
                 (block) -> createOreDrop(ModBlocks.ENDSTONE_MALACHITE_ORE.get(), ModItems.RAW_MALACHITE.get()));
+        add(ModBlocks.JASPER_ORE.get(),
+                (block) -> createOreDrop(ModBlocks.JASPER_ORE.get(), ModItems.RAW_JASPER.get()));
+        add(ModBlocks.DEEPSLATE_JASPER_ORE.get(),
+                (block) -> createOreDrop(ModBlocks.DEEPSLATE_JASPER_ORE.get(), ModItems.RAW_JASPER.get()));
+        add(ModBlocks.NETHERRACK_JASPER_ORE.get(),
+                (block) -> createOreDrop(ModBlocks.NETHERRACK_JASPER_ORE.get(), ModItems.RAW_JASPER.get()));
+        add(ModBlocks.ENDSTONE_JASPER_ORE.get(),
+                (block) -> createOreDrop(ModBlocks.ENDSTONE_JASPER_ORE.get(), ModItems.RAW_JASPER.get()));
 
+        this.dropSelf(ModBlocks.MALACHITE_BLOCK.get());
+        this.dropSelf(ModBlocks.JASPER_BLOCK.get());
         this.dropSelf(ModBlocks.EBONY_LOG.get());
         this.dropSelf(ModBlocks.EBONY_WOOD.get());
         this.dropSelf(ModBlocks.EBONY_PLANKS.get());

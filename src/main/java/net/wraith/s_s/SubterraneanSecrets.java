@@ -42,20 +42,37 @@ public class SubterraneanSecrets {
         if (event.getTab() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.MALACHITE);
             event.accept(ModItems.RAW_MALACHITE);
+            event.accept(ModItems.JASPER);
+            event.accept(ModItems.RAW_JASPER);
         }
         if (event.getTab() == ModCreativeModeTabs.SUBTERRANEAN_SECRETS_TAB) {
             event.accept(ModItems.MALACHITE);
             event.accept(ModItems.RAW_MALACHITE);
+            event.accept(ModItems.JASPER);
+            event.accept(ModItems.RAW_JASPER);
             event.accept(ModItems.MALACHITE_PICKAXE);
             event.accept(ModItems.MALACHITE_AXE);
             event.accept(ModItems.MALACHITE_SHOVEL);
             event.accept(ModItems.MALACHITE_HOE);
             event.accept(ModItems.MALACHITE_SWORD);
+            event.accept(ModItems.MALACHITE_HELMET);
+            event.accept(ModItems.MALACHITE_CHESTPLATE);
+            event.accept(ModItems.MALACHITE_LEGGINGS);
+            event.accept(ModItems.MALACHITE_BOOTS);
+            event.accept(ModItems.JASPER_PICKAXE);
+            event.accept(ModItems.JASPER_AXE);
+            event.accept(ModItems.JASPER_SHOVEL);
+            event.accept(ModItems.JASPER_HOE);
+            event.accept(ModItems.JASPER_SWORD);
             event.accept(ModBlocks.MALACHITE_BLOCK);
             event.accept(ModBlocks.MALACHITE_ORE);
             event.accept(ModBlocks.DEEPSLATE_MALACHITE_ORE);
             event.accept(ModBlocks.NETHERRACK_MALACHITE_ORE);
             event.accept(ModBlocks.ENDSTONE_MALACHITE_ORE);
+            event.accept(ModBlocks.JASPER_ORE);
+            event.accept(ModBlocks.DEEPSLATE_JASPER_ORE);
+            event.accept(ModBlocks.NETHERRACK_JASPER_ORE);
+            event.accept(ModBlocks.ENDSTONE_JASPER_ORE);
             event.accept(ModBlocks.EBONY_LEAVES);
             event.accept(ModBlocks.EBONY_LOG);
             event.accept(ModBlocks.EBONY_WOOD);
@@ -66,6 +83,8 @@ public class SubterraneanSecrets {
         }
         if (event.getTab() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.MALACHITE_BLOCK);
+            event.accept(ModBlocks.JASPER_BLOCK);
+            event.accept(ModItems.RAW_JASPER);
             event.accept(ModBlocks.EBONY_LEAVES);
             event.accept(ModBlocks.EBONY_LOG);
             event.accept(ModBlocks.EBONY_WOOD);
@@ -80,6 +99,10 @@ public class SubterraneanSecrets {
             event.accept(ModBlocks.DEEPSLATE_MALACHITE_ORE);
             event.accept(ModBlocks.NETHERRACK_MALACHITE_ORE);
             event.accept(ModBlocks.ENDSTONE_MALACHITE_ORE);
+            event.accept(ModBlocks.JASPER_ORE);
+            event.accept(ModBlocks.DEEPSLATE_JASPER_ORE);
+            event.accept(ModBlocks.NETHERRACK_JASPER_ORE);
+            event.accept(ModBlocks.ENDSTONE_JASPER_ORE);
             event.accept(ModBlocks.EBONY_LEAVES);
             event.accept(ModBlocks.EBONY_LOG);
             event.accept(ModBlocks.EBONY_WOOD);
@@ -92,6 +115,14 @@ public class SubterraneanSecrets {
         if (event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.MALACHITE_PICKAXE);
             event.accept(ModItems.MALACHITE_AXE);
+            event.accept(ModItems.MALACHITE_SHOVEL);
+            event.accept(ModItems.MALACHITE_HOE);
+            event.accept(ModItems.MALACHITE_SWORD);
+            event.accept(ModItems.JASPER_PICKAXE);
+            event.accept(ModItems.JASPER_AXE);
+            event.accept(ModItems.JASPER_SHOVEL);
+            event.accept(ModItems.JASPER_HOE);
+            event.accept(ModItems.JASPER_SWORD);
         }
     }
 

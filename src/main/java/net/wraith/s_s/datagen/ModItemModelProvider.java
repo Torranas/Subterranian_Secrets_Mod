@@ -20,13 +20,27 @@ public class ModItemModelProvider extends ItemModelProvider {
     @Override
     protected void registerModels() {
         simpleItem(ModItems.MALACHITE);
+        simpleItem(ModItems.JASPER);
         simpleItem(ModItems.RAW_MALACHITE);
+        simpleItem(ModItems.RAW_JASPER);
+        simpleItem(ModItems.MALACHITE_BOOTS);
+        simpleItem(ModItems.MALACHITE_CHESTPLATE);
+        simpleItem(ModItems.MALACHITE_LEGGINGS);
+        simpleItem(ModItems.MALACHITE_HELMET);
         handheldItem(ModItems.MALACHITE_PICKAXE);
         handheldItem(ModItems.MALACHITE_AXE);
         handheldItem(ModItems.MALACHITE_SHOVEL);
         handheldItem(ModItems.MALACHITE_HOE);
         handheldItem(ModItems.MALACHITE_SWORD);
         saplingItem(ModBlocks.EBONY_SAPLING);
+        handheldItem(ModItems.JASPER_PICKAXE);
+        handheldItem(ModItems.JASPER_AXE);
+        handheldItem(ModItems.JASPER_SHOVEL);
+        handheldItem(ModItems.JASPER_HOE);
+        handheldItem(ModItems.JASPER_SWORD);
+
+
+
 
     }
 

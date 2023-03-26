@@ -33,9 +33,42 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 ModItems.MALACHITE.get(), 1f, 200, "malachite");
         oreSmelting(consumer, List.of(ModBlocks.ENDSTONE_MALACHITE_ORE.get()), RecipeCategory.MISC,
                 ModItems.MALACHITE.get(), 1f, 200, "malachite");
+        oreBlasting(consumer, List.of(ModItems.RAW_MALACHITE.get()), RecipeCategory.MISC,
+                ModItems.MALACHITE.get(), 1f, 100, "malachite");
+        oreBlasting(consumer, List.of(ModBlocks.MALACHITE_ORE.get()), RecipeCategory.MISC,
+                ModItems.MALACHITE.get(), 1f, 100, "malachite");
+        oreBlasting(consumer, List.of(ModBlocks.DEEPSLATE_MALACHITE_ORE.get()), RecipeCategory.MISC,
+                ModItems.MALACHITE.get(), 1f, 100, "malachite");
+        oreBlasting(consumer, List.of(ModBlocks.NETHERRACK_MALACHITE_ORE.get()), RecipeCategory.MISC,
+                ModItems.MALACHITE.get(), 1f, 100, "malachite");
+        oreBlasting(consumer, List.of(ModBlocks.ENDSTONE_MALACHITE_ORE.get()), RecipeCategory.MISC,
+                ModItems.MALACHITE.get(), 1f, 100, "malachite");
+        oreSmelting(consumer, List.of(ModItems.RAW_JASPER.get()), RecipeCategory.MISC,
+                ModItems.JASPER.get(), 1f, 200, "JASPER");
+        oreSmelting(consumer, List.of(ModBlocks.JASPER_ORE.get()), RecipeCategory.MISC,
+                ModItems.JASPER.get(), 1f, 200, "jasper");
+        oreSmelting(consumer, List.of(ModBlocks.DEEPSLATE_JASPER_ORE.get()), RecipeCategory.MISC,
+                ModItems.JASPER.get(), 1f, 200, "jasper");
+        oreSmelting(consumer, List.of(ModBlocks.NETHERRACK_JASPER_ORE.get()), RecipeCategory.MISC,
+                ModItems.JASPER.get(), 1f, 200, "jasper");
+        oreSmelting(consumer, List.of(ModBlocks.ENDSTONE_JASPER_ORE.get()), RecipeCategory.MISC,
+                ModItems.JASPER.get(), 1f, 200, "jasper");
+        oreBlasting(consumer, List.of(ModItems.RAW_JASPER.get()), RecipeCategory.MISC,
+                ModItems.JASPER.get(), 1f, 100, "JASPER");
+        oreBlasting(consumer, List.of(ModBlocks.JASPER_ORE.get()), RecipeCategory.MISC,
+                ModItems.JASPER.get(), 1f, 100, "jasper");
+        oreBlasting(consumer, List.of(ModBlocks.DEEPSLATE_JASPER_ORE.get()), RecipeCategory.MISC,
+                ModItems.JASPER.get(), 1f, 100, "jasper");
+        oreBlasting(consumer, List.of(ModBlocks.NETHERRACK_JASPER_ORE.get()), RecipeCategory.MISC,
+                ModItems.JASPER.get(), 1f, 100, "jasper");
+        oreBlasting(consumer, List.of(ModBlocks.ENDSTONE_JASPER_ORE.get()), RecipeCategory.MISC,
+                ModItems.JASPER.get(), 1f, 100, "jasper");
+
 
         nineBlockStorageRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.MALACHITE.get(), RecipeCategory.MISC,
                 ModBlocks.MALACHITE_BLOCK.get());
+        nineBlockStorageRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.JASPER.get(), RecipeCategory.MISC,
+                ModBlocks.JASPER_BLOCK.get());
     }
 
     protected static void nineBlockStorageRecipes(Consumer<FinishedRecipe> p_249580_, RecipeCategory p_251203_, ItemLike p_251689_, RecipeCategory p_251376_, ItemLike p_248771_) {

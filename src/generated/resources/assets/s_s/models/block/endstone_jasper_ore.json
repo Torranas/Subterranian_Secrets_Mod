@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "s_s:block/endstone_jasper_ore"
+  }
+}

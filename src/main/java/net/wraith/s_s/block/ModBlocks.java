@@ -28,6 +28,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> MALACHITE_BLOCK = registerBlock("malachite_block",
             () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
                     .strength(6f).requiresCorrectToolForDrops()));
+    public static final RegistryObject<Block> JASPER_BLOCK = registerBlock("jasper_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
+                    .strength(6f).requiresCorrectToolForDrops()));
 
     public static final RegistryObject<Block> MALACHITE_ORE = registerBlock("malachite_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
@@ -42,6 +45,22 @@ public class ModBlocks {
                     .strength(2.5f).requiresCorrectToolForDrops(), UniformInt.of(3,7)));
 
     public static final RegistryObject<Block> ENDSTONE_MALACHITE_ORE = registerBlock("endstone_malachite_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3,7)));
+    
+    public static final RegistryObject<Block> JASPER_ORE = registerBlock("jasper_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(3,7)));
+
+    public static final RegistryObject<Block> DEEPSLATE_JASPER_ORE = registerBlock("deepslate_jasper_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(4.5f).requiresCorrectToolForDrops(), UniformInt.of(3,7)));
+
+    public static final RegistryObject<Block> NETHERRACK_JASPER_ORE = registerBlock("netherrack_jasper_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(2.5f).requiresCorrectToolForDrops(), UniformInt.of(3,7)));
+
+    public static final RegistryObject<Block> ENDSTONE_JASPER_ORE = registerBlock("endstone_jasper_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops(), UniformInt.of(3,7)));
 

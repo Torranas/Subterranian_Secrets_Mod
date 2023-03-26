@@ -1,13 +1,18 @@
-// 1.19.3	2023-03-24T21:42:13.968737	Loot Tables
+// 1.19.3	2023-03-25T13:32:27.0025191	Loot Tables
+dd842346be337b38df8050e3bf6354efdb11e634 data/s_s/loot_tables/blocks/deepslate_jasper_ore.json
 024874a9ee9d4a0498bc3169ae0fd70f7226aa29 data/s_s/loot_tables/blocks/deepslate_malachite_ore.json
 c1a9acac1b57e40ca97d535074797c71d23b20a9 data/s_s/loot_tables/blocks/ebony_leaves.json
 d97efbd35b0095985f107077f915d01fe13e389b data/s_s/loot_tables/blocks/ebony_log.json
 910b4c19b394326c1e87031e721d1be89b17a0a7 data/s_s/loot_tables/blocks/ebony_planks.json
 c13a5e8d6a37e4355c65c46657237c4af0129f19 data/s_s/loot_tables/blocks/ebony_sapling.json
 5247c8147193e07ab4487a28d5cc40b5774bc996 data/s_s/loot_tables/blocks/ebony_wood.json
+f5e65689567bab19f51d9560c3a94c13adf9f46b data/s_s/loot_tables/blocks/endstone_jasper_ore.json
 d5782dd3ad78987045cf8b920d10e02ee98513e1 data/s_s/loot_tables/blocks/endstone_malachite_ore.json
+292fc9ebd491de0fca5f83847dda4691d3c88cb3 data/s_s/loot_tables/blocks/jasper_block.json
+998b2458be9d256185c414ac5faec1a286ed1cb1 data/s_s/loot_tables/blocks/jasper_ore.json
 cbaedb45e10ab12140d5b2aa117a128871f6b1e4 data/s_s/loot_tables/blocks/malachite_block.json
 480e433dbfbee94eaedbc30a35c3b2f705d53fbc data/s_s/loot_tables/blocks/malachite_ore.json
+7e8309786b3f3a41053b0a1974b324c52094b580 data/s_s/loot_tables/blocks/netherrack_jasper_ore.json
 a0ac7eeee2912c2c1a142a72940a3652f31dacc8 data/s_s/loot_tables/blocks/netherrack_malachite_ore.json
 0984b5f7cad4ec11fd8526119540c10b2b865cba data/s_s/loot_tables/blocks/stripped_ebony_log.json
 431dc06d0eb2fa8e2b5dffd3ada34c38a4052bfa data/s_s/loot_tables/blocks/stripped_ebony_wood.json

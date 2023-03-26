@@ -30,6 +30,9 @@ public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_MALACHITE_ORE_KEY = registerKey("malachite_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> END_MALACHITE_ORE_KEY = registerKey("end_malachite_ore");
     public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_MALACHITE_ORE_KEY = registerKey("nether_malachite_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_JASPER_ORE_KEY = registerKey("jasper_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> END_JASPER_ORE_KEY = registerKey("end_jasper_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> NETHER_JASPER_ORE_KEY = registerKey("nether_jasper_ore");
 
 
     public static void bootstrap(BootstapContext<ConfiguredFeature<?, ?>> context) {
@@ -41,6 +44,10 @@ public class ModConfiguredFeatures {
         List<OreConfiguration.TargetBlockState> overworldMalachiteOres = List.of(OreConfiguration.target(stonereplaceables,
                 ModBlocks.MALACHITE_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslatereplaceables, ModBlocks.DEEPSLATE_MALACHITE_ORE.get().defaultBlockState()));
+
+        List<OreConfiguration.TargetBlockState> overworldJasperOres = List.of(OreConfiguration.target(stonereplaceables,
+                        ModBlocks.JASPER_ORE.get().defaultBlockState()),
+                OreConfiguration.target(deepslatereplaceables, ModBlocks.DEEPSLATE_JASPER_ORE.get().defaultBlockState()));
 
         register(context, EBONY_KEY, Feature.TREE, new TreeConfiguration.TreeConfigurationBuilder(
                 BlockStateProvider.simple(ModBlocks.EBONY_LOG.get()),
@@ -54,6 +61,11 @@ public class ModConfiguredFeatures {
                 ModBlocks.ENDSTONE_MALACHITE_ORE.get().defaultBlockState(), 10));
         register(context, NETHER_MALACHITE_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackreplaceables,
                 ModBlocks.NETHERRACK_MALACHITE_ORE.get().defaultBlockState(), 10));
+        register(context, OVERWORLD_JASPER_ORE_KEY, Feature.ORE, new OreConfiguration(overworldJasperOres, 10));
+        register(context, END_JASPER_ORE_KEY, Feature.ORE, new OreConfiguration(endstonereplaceables,
+                ModBlocks.ENDSTONE_JASPER_ORE.get().defaultBlockState(), 10));
+        register(context, NETHER_JASPER_ORE_KEY, Feature.ORE, new OreConfiguration(netherrackreplaceables,
+                ModBlocks.NETHERRACK_JASPER_ORE.get().defaultBlockState(), 10));
     }
 
 

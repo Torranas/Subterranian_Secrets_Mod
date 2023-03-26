@@ -20,10 +20,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(ModBlocks.MALACHITE_BLOCK);
+        blockWithItem(ModBlocks.JASPER_BLOCK);
         blockWithItem(ModBlocks.MALACHITE_ORE);
         blockWithItem(ModBlocks.DEEPSLATE_MALACHITE_ORE);
         blockWithItem(ModBlocks.NETHERRACK_MALACHITE_ORE);
         blockWithItem(ModBlocks.ENDSTONE_MALACHITE_ORE);
+        blockWithItem(ModBlocks.JASPER_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_JASPER_ORE);
+        blockWithItem(ModBlocks.NETHERRACK_JASPER_ORE);
+        blockWithItem(ModBlocks.ENDSTONE_JASPER_ORE);
 
         logBlock(((RotatedPillarBlock) ModBlocks.EBONY_LOG.get()));
         axisBlock((RotatedPillarBlock) ModBlocks.EBONY_WOOD.get(), blockTexture(ModBlocks.EBONY_LOG.get()), blockTexture(ModBlocks.EBONY_LOG.get()));
