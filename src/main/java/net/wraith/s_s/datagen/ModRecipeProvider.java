@@ -1,4 +1,5 @@
 package net.wraith.s_s.datagen;
+import net.minecraft.advancements.critereon.ItemPredicate;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
 import net.minecraft.resources.ResourceLocation;
@@ -12,6 +13,7 @@ import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import net.wraith.s_s.block.ModBlocks;
 import net.wraith.s_s.SubterraneanSecrets;
 import net.wraith.s_s.item.ModItems;
+import net.wraith.s_s.util.ModTags;
 
 import javax.annotation.Nullable;
 import java.util.List;
@@ -70,18 +72,12 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 ModBlocks.MALACHITE_BLOCK.get());
         nineBlockStorageRecipes(consumer, RecipeCategory.BUILDING_BLOCKS, ModItems.JASPER.get(), RecipeCategory.MISC,
                 ModBlocks.JASPER_BLOCK.get());
-
-        planksFromLog(consumer, RecipeCategory.BUILDING_BLOCKS, ModBlocks.EBONY_LOG.get(), RecipeCategory.BUILDING_BLOCKS,
-                ModBlocks.EBONY_PLANKS.get());
-
-
+        planksFromLog(consumer, ModBlocks.EBONY_PLANKS.get(), ModTags.Items.IS_WOOD, 4);
 
 
     }
-
     protected static void planksFromLog(Consumer<FinishedRecipe> p_259712_, ItemLike p_259052_, TagKey<Item> p_259045_, int p_259471_) {
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, p_259052_, p_259471_).requires(p_259045_)
-                .group("planks").unlockedBy("has_log", has(p_259045_)).save(p_259712_, new ResourceLocation(SubterraneanSecrets.MOD_ID));
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.BUILDING_BLOCKS, p_259052_, p_259471_).requires(p_259045_).group("planks").unlockedBy("has_log", has(p_259045_)).save(p_259712_);
     }
 
     protected static void nineBlockStorageRecipes(Consumer<FinishedRecipe> p_249580_, RecipeCategory p_251203_, ItemLike p_251689_, RecipeCategory p_251376_, ItemLike p_248771_) {

@@ -1,4 +1,5 @@
-// 1.19.3	2023-03-25T13:32:27.003019	Recipes
+// 1.19.3	2023-03-27T11:38:31.8532924	Recipes
+b356d1bac8e4eee9592e3506f2f68396532da09e data/s_s/advancements/recipes/building_blocks/ebony_planks.json
 88d63c76fb0757ca798b2564ffc30419fca75236 data/s_s/advancements/recipes/building_blocks/jasper.json
 90bb53d5fc52d1fee4c19a548b7e247c0d7759fa data/s_s/advancements/recipes/building_blocks/malachite.json
 7a3a50992d8a7e72fa399f185abeceb78b254623 data/s_s/advancements/recipes/misc/jasper_block.json
@@ -23,6 +24,7 @@ a332c54abebff4fe60632b8ca2c83b22cbf19591 data/s_s/advancements/recipes/misc/mala
 96a29e902b79f64fcc28e7911e24aa9c495d8c5d data/s_s/advancements/recipes/misc/malachite_from_smelting_malachite_ore.json
 385c4d00ce6b80b6d8f4a321321dbc35f16d83f4 data/s_s/advancements/recipes/misc/malachite_from_smelting_netherrack_malachite_ore.json
 5f35c9a3e09e5aec5adc2fa45998946519fd8e72 data/s_s/advancements/recipes/misc/malachite_from_smelting_raw_malachite.json
+dfbe588a15f424b4a1df1dadff653fa50525ec7c data/s_s/recipes/ebony_planks.json
 821c63ff0c2c050fc35470c02b7ef44bb1fc949d data/s_s/recipes/jasper.json
 ec5fed9d65fe42cec5f772eb3929af49140324f2 data/s_s/recipes/jasper_block.json
 f94c45cf0f1404794576b7a25898cfadc4ac411e data/s_s/recipes/jasper_from_blasting_deepslate_jasper_ore.json
